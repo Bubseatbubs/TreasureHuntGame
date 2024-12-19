@@ -34,3 +34,4 @@ Hosting or joining a lobby through the Unity Editor works the same as it does in
 This game was developed using Unity, but the network API was developed manually. The game uses UDP for constant updates like player/enemy movement, and TCP for things like joining a game, getting the game's seed, and picking up/dropping items. The game is fully P2P so there is no server that the clients connect to, one client is the host and has the "correct" state of the game.
 
 If you want a more detailed look into how exactly I structured the networking code, please take a look at [this link](https://docs.google.com/document/d/1tOlMuKUA6JnFKkPXRA4OJvJRSxx45xVe2ZRsxFfbotc), though note that some aspects of the code may be out of date.
+This project moved repositories. The older repository of this project can be found [here](https://github.com/Bubseatbubs/TreasureHunt).
